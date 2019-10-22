@@ -1,7 +1,7 @@
 - hosts: all
   remote_user: vagrant
   become: yes
-  task:
+  tasks:
           - name: Instalando o Htop
             apt:
                     name: htop
